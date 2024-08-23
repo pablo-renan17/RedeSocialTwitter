@@ -40,47 +40,30 @@ header div p{
 }
 
 main{
-    min-height: 90vh;
+    height: 90vh;
     background-color: var(--color-black);
     overflow: auto;
-    flex-direction: column;
 }
 
-section{
-    width: 75vh;
-    margin: 2vh 0 2vh;
-    
+li{
+    list-style: none;
 }
 
-section input{
-    width: 100%;
-    height: 4vh;
-    font-size: 2.5vh;
-    border-radius: 10px;
-    text-align: center;
-    background-color: var(--color-black);
-    border: 2px solid var(--color-grey);
-    color: var(--color-white);
-}
-
-section input::placeholder {
-    text-align: left; /* Placeholder normal para garantir que o texto esteja alinhado à esquerda */
-    position: relative;
-}
-
-main ul{
+#posts{
+    margin-top: 20vh;
     width: 75vh;
     background-color: var(--color-black);
     margin-left: 10vh;
     margin-right: 10vh;
     color: var(--color-white);
+    border-top: 0.3vh solid var(--color-grey);
     border-right: 0.3vh solid var(--color-grey);
     border-left: 0.3vh solid var(--color-grey);
-    list-style: none;
-    flex-direction: column;
+    list-style: none; 
+    overflow: auto;
 }
 
-main ul li{
+.posts-li{
     width: 100%;
     border-bottom  : 0.3vh solid var(--color-grey);
     padding: 5%;
@@ -93,15 +76,30 @@ main ul li{
 }
 
 .li-footer{
+    border-top: 0.3vh solid var(--color-grey);
     margin-top: 8px;
     margin-bottom: 8px;
+    padding-top: 8px;
+    flex-direction: column;
 }
 
 .li-footer p{
-    cursor: pointer;
+    cursor: auto;
 }
 
 .li-title{
+    margin-bottom: 8px;
+}
+
+#mostrar-comentarios{
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-bottom: 0.3vh solid var(--color-grey);
+}
+
+.comentario-li{
+    border-bottom: 0.3vh solid var(--color-grey);
+    padding-bottom: 8px;
     margin-bottom: 8px;
 }
 

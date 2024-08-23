@@ -40,7 +40,7 @@ header div p{
 }
 
 main{
-    height: 90vh;
+    min-height: 90vh;
     background-color: var(--color-black);
     overflow: auto;
 }
@@ -50,13 +50,11 @@ li{
 }
 
 #posts{
-    margin-top: 20vh;
     width: 75vh;
     background-color: var(--color-black);
     margin-left: 10vh;
     margin-right: 10vh;
     color: var(--color-white);
-    border-top: 0.3vh solid var(--color-grey);
     border-right: 0.3vh solid var(--color-grey);
     border-left: 0.3vh solid var(--color-grey);
     list-style: none; 
